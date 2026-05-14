@@ -1,2 +1,42 @@
-# RACINMOLYY
-Custom glassmorphism BetterDiscord theme powered by RACINMOLY.
+/**
+ * @name RACINGMOLY
+
+ * @author RACINGMOLY
+ * @version 1.0.0
+ * @description RACINGMOLY Theme
+ * @invite RS6XSd5U7b
+ * @website https://discord.gg/RS6XSd5U7b
+ */
+
+@import url("https://firefire.github.io/RACINMOLYY/theme.css");
+
+:root {
+	/* ARKA PLAN RESMİ */
+	--app-bg: url(https://i.ibb.co/QjnTVmgH/image.png);
+	--app-blur: 6px;
+	--app-margin: 24px;
+	--app-radius: 8px;
+
+	/* RENK AYARLARI (YEŞİL TONU) */
+	--accent-hue: 156;
+	--accent-saturation: 77.5%;
+	--accent-lightness: 47.1%;
+	--accent-opacity: 1;
+	--accent-text-color: hsl(0,0%,0%);
+
+	/* YAN PANEL VE MESAJ ALANI */
+	--sidebar-color: hsl(0,0%,0%,0.4);
+	--main-content-color: hsl(0,0%,0%,0.2);
+
+	/* MESAJ AYARLARI */
+	--message-color: hsl(0,0%,0%,0.4);
+	--message-radius: 8px;
+	--message-padding-top: 8px;
+	--message-padding-side: 8px;
+
+	/* YAZI ALANI */
+	--textarea-color: 255,255,255;
+	--textarea-alpha: 0.1;
+	--textarea-text-color: hsl(0,0%,100%);
+	--textarea-radius: 22px;
+}
